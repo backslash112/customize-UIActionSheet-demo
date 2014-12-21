@@ -26,9 +26,20 @@
                                     <action selector="showActionSheetButtonClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZhJ-wr-fl2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggG-ue-5Z6">
+                                <rect key="frame" x="39" y="307" width="243" height="30"/>
+                                <state key="normal" title="Show Custom ActionSheet in iOS 8">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showActionSheetButtonClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Jli-dE-1l0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ggG-ue-5Z6" firstAttribute="top" secondItem="xsV-rC-XZj" secondAttribute="bottom" constant="8" id="6qT-WS-2QR"/>
+                            <constraint firstAttribute="centerX" secondItem="ggG-ue-5Z6" secondAttribute="centerX" constant="-0.5" id="9VT-hh-w8H"/>
                             <constraint firstAttribute="centerX" secondItem="xsV-rC-XZj" secondAttribute="centerX" constant="-0.5" id="9am-DY-0wf"/>
                             <constraint firstAttribute="centerY" secondItem="xsV-rC-XZj" secondAttribute="centerY" id="lhn-lB-YKB"/>
                         </constraints>
